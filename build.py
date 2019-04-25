@@ -36,8 +36,8 @@ def build():
         )
     ]
 
-    from Cython.Build import cythonize
-    ext_modules = cythonize(ext_modules)
+    #from Cython.Build import cythonize
+    #ext_modules = cythonize(ext_modules)
 
     setup(
         ext_modules = ext_modules
